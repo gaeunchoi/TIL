@@ -2,7 +2,7 @@
 
 ### 💡 설명
 
-`HTML = HyperText Markup Language`
+`HTML = HyperText Markup Language`  
 → 마크업 언어는 자료의 구조(웹페이지)를 표현하기 위한 언어(프로그래밍 언어 ? ❌)  
 → 웹페이지의 내용(Content)와 구조(Structure)를 담당하는 언어로써 `HTML 태그` 를 통해 정보를 `구조화` 하는 것
 <br>
@@ -65,30 +65,33 @@
 ### 📋 HTML 기본 태그
 
 - 웹페이지 구성 태그
-  | 태그   | 설명                                                       |
+  | 태그 | 설명 |
   | ------ | ---------------------------------------------------------- |
-  | title  | 문서의 제목으로 브라우저 탭에 표시                         |
-  | style  | HTML 문서를 위한 style 정보를 정의, css 코드가 작성되는 곳 |
-  | link   | 외부 리소스(혹은 링크)와의 연결                            |
-  | script | javascript를 작성할 때 사용                                |
-  | meta   | description, keywords, quthor, 기타 메타데이터 정의에 사용 |
-    <br>
+  | title | 문서의 제목으로 브라우저 탭에 표시 |
+  | style | HTML 문서를 위한 style 정보를 정의, css 코드가 작성되는 곳 |
+  | link | 외부 리소스(혹은 링크)와의 연결 |
+  | script | javascript를 작성할 때 사용 |
+  | meta | description, keywords, quthor, 기타 메타데이터 정의에 사용 |
+
+  <br>
 
 - 텍스트 관련 태그
-  | 태그                                                   | 설명                                                                                                            |
+  | 태그 | 설명 |
   | ------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
-  | h1 ~ h6                                                | Headings 제목을 나타낼 때 사용                                                                                  |
+  | h1 ~ h6 | Headings 제목을 나타낼 때 사용 |
   | 숫자가 작을수록 중요한 제목을 의미하며, 크기가 커진다. |
-  | strong, b                                              | 두 태그 모두 볼드체를 지정한다.<br>`strong`: 의미론적(semantic) 중요성 O <br>`b`: 의미론적(semantic) 중요성 X   |
-  | em, i                                                  | empahsized, 강조 & 중요한 텍스트 지정<br>`em`: 의미론적(semantic) 중요성 O <br>`i`: 의미론적(semantic) 중요성 X |
-  | sub, sup                                               | `sub`: subscripted, 아래에 쓰인 텍스트<br>`sup`: superscripted, 위에 쓰인 텍스트                                |
-  | p                                                      | 단락, 문단을 지정                                                                                               |
-  | br                                                     | 강제 개행, 빈 요소로 닫는 태그 x                                                                                |
-  | pre                                                    | 파일에 작성된 그대로 브라우저에 표시                                                                            |
-  | hr                                                     | 수평줄 삽입                                                                                                     |
-  | q                                                      | 짧은 인용문 지정, 큰 따옴표로 보여짐                                                                            |
-  | blockquote                                             | 긴 인용문 지정, 들여쓰기 되어짐                                                                                 |
-    <br>
+  | strong, b | 두 태그 모두 볼드체를 지정한다.<br>`strong`: 의미론적(semantic) 중요성 O <br>`b`: 의미론적(semantic) 중요성 X |
+  | em, i | empahsized, 강조 & 중요한 텍스트 지정<br>`em`: 의미론적(semantic) 중요성 O <br>`i`: 의미론적(semantic) 중요성 X |
+  | sub, sup | `sub`: subscripted, 아래에 쓰인 텍스트<br>`sup`: superscripted, 위에 쓰인 텍스트 |
+  | p | 단락, 문단을 지정 |
+  | br | 강제 개행, 빈 요소로 닫는 태그 x |
+  | pre | 파일에 작성된 그대로 브라우저에 표시 |
+  | hr | 수평줄 삽입 |
+  | q | 짧은 인용문 지정, 큰 따옴표로 보여짐 |
+  | blockquote | 긴 인용문 지정, 들여쓰기 되어짐 |
+
+  <br>
+
 - 목록과 표 관련 태그
 
   | 태그  | 설명                             |
@@ -109,7 +112,7 @@
 브라우저, 검색 엔진, 개발자 모두에게 컨텐츠의 의미를 명확히 설명하는 역할을 하는 태그 !  
 웹 구문화를 통해 검색엔진의 보다 빠르고 정확한 크롤링을 가능하게 하여 SEO 최적화에 도움이 되고, 명확한 명칭의 태그로 빠른 구분이 가능하여 작업 효율이 증가하는 장점이 있다.
 
-![semantice-tag.png](./img/semantice-tag.png)  
+![semantice-tag.png](../img/semantice-tag.png)  
 출처: [요즘 IT | 알아두면 쓸모 있는 시맨틱 마크업 개념 정리](<[https://yozm.wishket.com/magazine/detail/2495/](https://yozm.wishket.com/magazine/detail/2495/)>)
 
 ### ❓사용하는 이유
