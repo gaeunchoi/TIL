@@ -27,7 +27,7 @@ git switch -c test-squash
 
 ### 3. 변경사항 생성
 
-![squash commit](../202502/img/git-squash_merge/squash_commit.png)
+![squash commit](../img/git-squash_merge/squash_commit.png)
 
 `test-squash` 브랜치에서 다섯개의 변경사항을 만들어 각각 commit 해줬다.
 
@@ -47,6 +47,6 @@ git merge --squash test-squash
 이후 다시 add → commit→ push 해주기 !
 이때 commit 메시지를 "squash merge 완료"라고 해줬다.
 
-![squash complete](../202502/img/git-squash_merge/squash_complete.png)
+![squash complete](../img/git-squash_merge/squash_complete.png)
 
 5개의 commit이 squash merge로 하나의 commit이 되는 모습을 볼 수 있다.

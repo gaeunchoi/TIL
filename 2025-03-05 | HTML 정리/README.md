@@ -112,7 +112,7 @@
 브라우저, 검색 엔진, 개발자 모두에게 컨텐츠의 의미를 명확히 설명하는 역할을 하는 태그 !  
 웹 구문화를 통해 검색엔진의 보다 빠르고 정확한 크롤링을 가능하게 하여 SEO 최적화에 도움이 되고, 명확한 명칭의 태그로 빠른 구분이 가능하여 작업 효율이 증가하는 장점이 있다.
 
-![semantice-tag.png](../img/semantice-tag.png)  
+![semantice-tag.png](../img/html/semantice-tag.png)  
 출처: [요즘 IT | 알아두면 쓸모 있는 시맨틱 마크업 개념 정리](<[https://yozm.wishket.com/magazine/detail/2495/](https://yozm.wishket.com/magazine/detail/2495/)>)
 
 ### ❓사용하는 이유

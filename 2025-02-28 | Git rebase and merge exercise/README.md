@@ -31,7 +31,7 @@ git switch -c test-rebase
 - commit이 완료되었다면 이어서 “저는 최가은입니다” 문장을 추가하고 add→commit
 - 이후 `최가은` 브랜치에서 README.md 파일에 내용을 모두 지우고 “rebase test”를 적고 add→commit
   > commit 메시지 변경을 해봤다
-      ![rebase_interactive](../202502/img/git-rebase-merge/rebase_interactive.png)
+      ![rebase_interactive](../img/git-rebase-merge/rebase_interactive.png)
       `git rebase -i <수정할 커밋의 직전 커밋아이디>` 를 이용하여 첫번째 커밋 메시지를 수정했다
       commit README.md ~~ → commit1 README.md 이런식으로!
       네이밍 이렇게 하면 안되지만 일단 나 혼자 연습이니까~
@@ -49,7 +49,7 @@ git rebase 최가은
 
 충돌 발생은 “두 변경 사항 모두 수락”을 눌러 냅다 합쳤다.
 
-![rebase_conflict](../202502/img/git-rebase-merge/rebase_conflict.png)
+![rebase_conflict](../img/git-rebase-merge/rebase_conflict.png)
 
 `최가은` 브랜치에서 `test-rebase`를 만들고 2번의 커밋을 더 해줬기 때문에 각 commit마다 비교해주며 충돌을 해결한다.
 
@@ -79,4 +79,4 @@ git push origin 최가은
 <br>
 결과적으로 얼레벌레 잘 올라간 것을 확인할 수 있다.
 
-![rebase_complete](../202502/img/git-rebase-merge/rebase_complete.png)
+![rebase_complete](../img/git-rebase-merge/rebase_complete.png)
